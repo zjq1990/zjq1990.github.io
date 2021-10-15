@@ -2,9 +2,51 @@
 layout: default
 ---
 
+这是我的第一个网站设计，打算设计用于自己的家庭展示和记录.
+
+ddddd.
+
+# 家庭大事记
+> 2017.7.1 &nbsp;&nbsp;&nbsp; 相识, 蓝岛电影院 <冈仁波齐>.
+>
+> 2017.8.26 &nbsp;&nbsp;&nbsp; 确定关系.
+>
+> 2019.5.23 &nbsp;&nbsp;&nbsp; 搬到一块开始同居.
+>
+> 2019.1.8 &nbsp;&nbsp;&nbsp; 山东订婚，双方父母见面.
+>
+> 2019.8.26 &nbsp;&nbsp;&nbsp; 回富区领证.
+>
+> 2019.8.31 &nbsp;&nbsp;&nbsp; 举办婚礼.
+>
+> 2021.6.1 &nbsp;&nbsp;&nbsp; 从3月初开始看房，终于拿到属于自己的房本
+>
+> 2021.10.23 &nbsp;&nbsp; 喜迁新家，从7月中开始装修，费了不少心力.
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
+
+[Link to support page](./docs/SUPPORT.md).
+
+# 家谱
+```puml
+@startuml
+
+start
+
+if (Graphviz installed?) then (yes)
+  :process all\ndiagrams;
+else (no)
+  :process only
+  __sequence__ and __activity__ diagrams;
+endif
+
+stop
+
+@enduml
+```
 
 There should be whitespace between paragraphs.
 
